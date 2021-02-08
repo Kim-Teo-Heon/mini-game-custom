@@ -1,53 +1,11 @@
+const clothes = [];
+
 function select_img(clothes){
-    let src = '';
-    switch(clothes.part){
-        case 'top' :
-            switch(clothes.color){
-                case 'Blue' :
-                    src = './imgs/blue_t.png';
-                break;
+    const part = clothes.part.charAt(0);
+    const color = clothes.color.toLowerCase();
 
-                case 'Yellow' :
-                    src = './imgs/yellow_t.png';
-                break;
+    const src = `./imgs/${color}_${part}.png`
 
-                case 'Pink' :
-                    src = './imgs/pink_t.png';
-                break;
-            }
-        break;
-        
-        case 'pants' :
-            switch(clothes.color){
-                case 'Blue' :
-                    src = './imgs/blue_p.png';
-                break;
-
-                case 'Yellow' :
-                    src = './imgs/yellow_p.png';
-                break;
-
-                case 'Pink' :
-                    src = './imgs/pink_p.png';
-                break;
-            }
-        break;
-
-        case 'skirts' :
-            switch(clothes.color){
-                case 'Blue' :
-                    src = './imgs/blue_s.png';
-                break;
-
-                case 'Yellow' :
-                    src = './imgs/yellow_s.png';
-                break;
-
-                case 'Pink' :
-                    src = './imgs/pink_s.png';
-                break;
-            }
-    }
     return src
 }
 

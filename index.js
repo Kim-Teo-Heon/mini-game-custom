@@ -1,6 +1,3 @@
-const clothes = [];
-const lists_ul = document.querySelector('.lists');
-
 function shake(e){
     const li = e.currentTarget;
     //currentTarget은 내가 이벤트를 발생시키도록 지정 한 곳(li)
@@ -18,6 +15,7 @@ function print_clothes(clothes){
     const span = document.createElement('span');
     const src = select_img(clothes);
 
+    li.classList.add('item');
     img.src = src;
     span.innerText = `${clothes.sex}, ${clothes.size}`
     li.addEventListener('click',shake);
@@ -36,13 +34,8 @@ function init(){
 
     logo.addEventListener('click',print_all);
 
-    for(let i=0; i< img.length; i++){
-        img[i].addEventListener('click',classify_part);
-    }
+    nav.addEventListener('click',classify_btn);
 
-    for(let i=0; i< btn.length; i++){
-    btn[i].addEventListener('click',classify_color);
-    }
 }
 
 init();
