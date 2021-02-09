@@ -23,7 +23,7 @@ function gen_random_part(){
 }
 
 function gen_random_color(){
-    const color = ['Blue', 'Yellow', 'Pink'];
+    const color = ['blue', 'yellow', 'pink'];
     const num = gen_random_num(color);
     const gen_color = color[num];
 

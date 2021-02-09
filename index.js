@@ -17,6 +17,8 @@ function print_clothes(clothes){
 
     li.classList.add('item');
     img.src = src;
+    li.dataset.color = clothes.color;
+    li.dataset.part = clothes.part;
     span.innerText = `${clothes.sex}, ${clothes.size}`
     li.addEventListener('click',shake);
 
@@ -32,8 +34,7 @@ function init(){
 
     clothes.forEach(print_clothes);
 
-    logo.addEventListener('click',print_all);
-
+    logo.addEventListener('click',classify_btn);
     nav.addEventListener('click',classify_btn);
 
 }
