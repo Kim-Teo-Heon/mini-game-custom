@@ -1,10 +1,11 @@
 # mini-game-custom
+## mini-game-clone을 바탕으로 기능 추가 + 재구성
 
 Vanilla JS Practice
 
 스택 : HTML,Vanilla JS, CSS 연습용
 
-주요 기능 : 옷 랜덤 생성, 옷 파트, 옷 컬러 Filter 기능
+주요 기능 : 옷 랜덤 생성, 옷 파트, 옷 컬러 Filter 기능, li hover 시 확대, 클릭 시 진동 효과
 
 #### 메인화면(랜덤 생성)
 
