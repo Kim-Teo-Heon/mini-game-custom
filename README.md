@@ -3,11 +3,11 @@
 
 Vanilla JS Practice
 
-스택 : HTML,Vanilla JS, CSS 연습용
+스택 : HTML,Vanilla JS, CSS 연습용(dataset 이용)
 
-주요 기능 : 옷 랜덤 생성, 옷 파트, 옷 컬러 Filter 기능, li hover 시 확대, 클릭 시 진동 효과
+주요 기능 : 옷 랜덤 생성, 옷 파트, 옷 컬러 Filter 기능,logo 클릭 시 모든 종류 옷 볼 수 있음 ,li hover 시 확대, 클릭 시 진동 효과
 
-#### 메인화면(랜덤 생성)
+#### 메인화면(랜덤 생성)(logo 클릭 시)
 
 ![image](https://user-images.githubusercontent.com/75817235/107333584-09dfe080-6af9-11eb-98b2-91a18c406d02.png)
 
@@ -34,3 +34,9 @@ Vanilla JS Practice
 #### Filter by pink
 
 ![image](https://user-images.githubusercontent.com/75817235/107334360-f719db80-6af9-11eb-916a-3634f3e8f786.png)
+
+#### li hover
+
+![image](https://user-images.githubusercontent.com/75817235/107336480-7b6d5e00-6afc-11eb-9d75-7d4aa949b67c.png)
+
+
